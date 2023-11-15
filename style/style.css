@@ -92,9 +92,9 @@ iframe {
   margin-right: auto;
 }
 #map{
- width: 80%;
+ width: 1000px;
  height: 1000px;
- margin: 1000px;
+ margin: 100px;
  margin-top: 200px;
  max-width: 100%;
  margin-left: auto;
