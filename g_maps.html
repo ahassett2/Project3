@@ -1,37 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	 <script src="js/script.js"></script>
-	 <link rel="stylesheet" href="style/style.css">  
-    <meta charset ="utf-8">
-	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&libraries=visualization&callback=initMap"></script>
-    <script async src="js/script.js"></script>
-    <title>Project 2-Aidan Hassett</title>
- </head>
+  <head>
+    <title>Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  
   <body>
-	  
-    <h2>Menu</h2>
-	 <nav>
-      <div id="main-menu">
-        <ul id="main-container">
-	</ul>
-      <ul>
-        <li><a href="index.html"> Professional Resume</a></li>
+    <header>
+      <nav>
+        <ul>
+		<li><a href="index.html"> Professional Resume</a></li>
         <li><a href="chitings.html">Fun Facts About the World</a></li>
         <li><a href="yapping.html">Chicago Sports</a></li>
         <li><a href="g_maps.html">Map</a></li> 
-      </ul>
-      </div>
-    </nav>
-    <section>
-      <h1>This is a place!</h1>
-
-      <div id = "map"></div>
-    
-      <script
-        src="https://maps.googleapis.com/maps/api/js?AIzaSyBQ3SmYCvO-wYZw1IQE_Ol2Kvx28T6Ty78&callback=initMap"
-        async defer>
-      </script>
-    </section>
+        </ul>
+      </nav>
+    </header>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
+    async defer></script>
   </body>
 </html>
